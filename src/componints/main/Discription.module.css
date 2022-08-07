@@ -1,0 +1,25 @@
+.contener {
+  background-image: linear-gradient(
+    rgb(222, 64, 11),
+    #212121,
+    rgb(222, 64, 11)
+  );
+  color: white;
+  margin: 50px auto;
+  width: 35%;
+  height: 30vh;
+  padding: 7px 12px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 30px 3px rgb(0, 0, 0);
+}
+.contener h2 {
+  text-transform: capitalize;
+  text-align: center;
+}
+.contener p {
+  margin-top: 20px;
+  display: inline-block;
+}
+.contener p::first-letter {
+  text-transform: uppercase;
+}

@@ -1,0 +1,45 @@
+.contener {
+  border-bottom: 1px solid rgba(116, 116, 116, 0.278);
+}
+.contener h3 {
+  text-transform: capitalize;
+}
+.contener p::first-letter {
+  text-transform: uppercase;
+}
+.contener span {
+  color: rgb(222, 64, 11);
+  font-weight: bold;
+}
+.myform {
+  float: right;
+  width: 120px;
+  height: fit-content;
+  text-align: center;
+  position: relative;
+  bottom: 41px;
+}
+.myform button {
+  display: inline-block;
+  width: 90px;
+  height: 25px;
+  background-color: rgb(222, 64, 11);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.myform input {
+  width: 40px;
+  height: 23px;
+  border-radius: 5px;
+  font-size: 17px;
+  padding: 5px 0 5px 5px;
+  margin-left: 10px;
+  border: 1.5px solid rgb(127, 127, 127);
+}
+.myform label {
+  font-weight: bold;
+}

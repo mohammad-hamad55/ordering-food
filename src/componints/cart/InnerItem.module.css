@@ -1,0 +1,52 @@
+.contener {
+  border-bottom: 2px solid rgb(222, 64, 11);
+  padding-bottom: 10px;
+}
+.contener h3 {
+  text-transform: capitalize;
+  margin-top: 15px;
+}
+.contener > span:nth-of-type(1) {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 5px;
+  color: rgb(222, 64, 11);
+}
+.contener > span:nth-of-type(2) {
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 50px;
+  width: 40px;
+  height: 20px;
+  line-height: 15px;
+  border: 1px solid rgb(182, 182, 182);
+}
+.contener > span:nth-of-type(2) span {
+  font-size: 13px;
+  font-weight: bold;
+}
+.buttons {
+  float: right;
+  margin-right: 5px;
+}
+.buttons button {
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 50px;
+  width: 43px;
+  height: 20px;
+  cursor: pointer;
+  line-height: 15px;
+  font-size: 18px;
+  background-color: white;
+  color: rgb(222, 64, 11);
+  margin-left: 10px;
+  border: 1px solid rgba(222, 64, 11, 0.296);
+}
+.buttons button:hover {
+  color: white;
+  background-color: rgb(222, 64, 11);
+}

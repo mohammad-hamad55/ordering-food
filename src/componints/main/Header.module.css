@@ -1,0 +1,14 @@
+.nav {
+  height: 10vh;
+  width: 100%;
+  background-color: rgb(222, 64, 11);
+  display: flex;
+  justify-content: space-between;
+}
+.meals {
+  color: white;
+  margin-left: 140px;
+  line-height: 4.2rem;
+  width: fit-content;
+  text-transform: capitalize;
+}
